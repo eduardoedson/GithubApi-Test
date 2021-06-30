@@ -1,7 +1,3 @@
-# Test for ShoringCode
-React Task by ShoringCode / Eduwo
-
-
 # Preview
 <img src="./src/assets/Preview.png" alt="Preview" />
 
