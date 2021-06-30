@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: 'Trebuchet MS', sans-serif;
+    overflow: auto;
+}
+
+.content {
+    margin: 18px 10px;
+}
+
+.items-list .list {
+    display: flex;
+    width: 100%;
+    flex-flow: wrap;
+}
+
+.items-list .list .item {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+    width: 30%;
+}
+
+.items-list .list .item .name {
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    color: #3f51b5;
+    word-break: break-all;
+}
+
+.items-list .list .item .name:hover {
+    text-decoration: underline;
+}
+
+.items-list .list .item .description {
+    color: rgb(80, 80, 80);
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 3px;
+    word-break: break-all;
+}
+
+.items-list .list .item .language {
+    color: rgb(165, 165, 165);
+    font-size: 11px;
+    margin-top: 13px;
+}
+
+.error-msg {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
